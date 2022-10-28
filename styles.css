@@ -56,9 +56,10 @@ i {
     display: flex;
     flex-direction: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 60px;
     margin-top: 60px;
+    width: 100%;
 }
 #ti4-app {
     width: 40vw;
@@ -67,6 +68,7 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 40rem;
     justify-content: space-between;
     background-color: rgba(149, 166, 180, 0.4);
     border-radius: 3px;
@@ -82,6 +84,37 @@ i {
     line-height: 20px;
 }
 #ti4-app nav {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#recipe-app {
+    width: 40vw;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 40rem;
+    background-color: rgba(149, 166, 180, 0.4);
+    border-radius: 3px;
+    box-shadow: -3px 3px 8px;
+}
+.project-stack-recipe {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 25vw;
+    height: 6rem;
+    font-size: large;
+}
+#recipe-app p {
+    line-height: 20px;
+}
+#recipe-app nav {
     width: 30vw;
     display: flex;
     justify-content: space-between;
